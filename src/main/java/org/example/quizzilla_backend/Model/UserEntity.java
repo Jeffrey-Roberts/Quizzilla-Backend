@@ -11,6 +11,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+// https://hyperskill.org/learn/step/32430#userdetails
 @Entity
 @Getter
 @Setter
@@ -31,9 +32,4 @@ public class UserEntity{
     @JsonIgnore
     private boolean isAccountNonLocked = false;
 
-    public UserEntity(String username, String password, boolean isAccountNonLocked) {
-        this.username = username;
-        this.password = password;
-        this.isAccountNonLocked = isAccountNonLocked;
-    }
 }

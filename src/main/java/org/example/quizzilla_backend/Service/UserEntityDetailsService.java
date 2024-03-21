@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+// https://hyperskill.org/learn/step/32430#userdetailsservice
 @Service
 public class UserEntityDetailsService implements UserDetailsService {
 

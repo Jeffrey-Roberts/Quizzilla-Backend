@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.List;
 
+// https://hyperskill.org/learn/step/32430#userdetails
 public class UserEntityDetails implements UserDetails {
 
     private final String username;
